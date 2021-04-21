@@ -1,15 +1,15 @@
 # Database Project 2: Sequoia Tree  Author:Josue Perez
 
 ## Objective
-The main objective for this project will be to create a BST tree that extends its branches lengths. In this case, the bst is will imitate a sequoia tree branch by having the highest length branch.
+The main objective for this project will be to create a BST tree that extends its branches to be the tallest in the tree. In this case, the bst will imitate a sequoia tree branch by having the highest length branch.
 
 ## Overview
 The project contains two classes: *sequioa and sequioaNode*. The sequoia class represent the tree that contains functions that will alter the shape of of it with highest branch. While sequoiaNode represent a single node leaf in the bst and its functions dictate wether or not the branch is at the highest length.
 
 ## Compiling 
-This program is compile with c
+This program is compile with c++14 using Mingw64 sets.
 
->
+>g++ -o sequoia.cpp sequoia-driver.cpp
 
 ## Sequoia Class Functions 
 
